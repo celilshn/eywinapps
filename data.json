@@ -1,36 +1,34 @@
-{
-  "category": [
+[
+  {
+  "id": "1",
+  "name": "Nature",
+  "backgroundUrl": "nature_background.jpg",
+  "version": "1",
+  "themes": [
     {
       "id": "1",
-      "name": "Nature",
-      "backgroundUrl": "nature_background.jpg",
-      "version": "1",
-      "themes": [
+      "name": "Red Rose",
+      "types": [
         {
-          "id": "1",
-          "name": "Red Rose",
-          "types": [
-            {
-              "name": "TYPE_KNOCK",
-              "thumbUrl": "red_rose/red_rose_thumb_blurred.jpg"
-            },
-            {
-              "name": "TYPE_PIN",
-              "thumbUrl": "red_rose/red_rose_thumb_blurred.jpg"
-            },
-            {
-              "name": "TYPE_PATTERN",
-              "thumbUrl": "red_rose/red_rose_thumb_blurred.jpg"
-            }
-          ],
-          "lineColor": "#32CD32",
-          "solidColor": "#32CD32",
-          "initStateViewUrl": "red_rose/red_rose_init_state_view.png",
-          "onTouchStateViewUrl": "red_rose/red_rose_on_touch_state_view.png",
-          "emptyIndicatorStateViewUrl": "red_rose/red_rose_empty_indicator_state_view.png",
-          "filledIndicatorStateViewUrl": "red_rose/red_rose_filled_indicator_state_view.png"
+          "name": "TYPE_KNOCK",
+          "thumbUrl": "red_rose/red_rose_thumb_blurred.jpg"
+        },
+        {
+          "name": "TYPE_PIN",
+          "thumbUrl": "red_rose/red_rose_thumb_blurred.jpg"
+        },
+        {
+          "name": "TYPE_PATTERN",
+          "thumbUrl": "red_rose/red_rose_thumb_blurred.jpg"
         }
-      ]
+      ],
+      "lineColor": "#32CD32",
+      "solidColor": "#32CD32",
+      "initStateViewUrl": "red_rose/red_rose_init_state_view.png",
+      "onTouchStateViewUrl": "red_rose/red_rose_on_touch_state_view.png",
+      "emptyIndicatorStateViewUrl": "red_rose/red_rose_empty_indicator_state_view.png",
+      "filledIndicatorStateViewUrl": "red_rose/red_rose_filled_indicator_state_view.png"
     }
   ]
 }
+]
