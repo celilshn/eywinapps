@@ -8,6 +8,7 @@
     {
       "id": "1",
       "name": "Red Rose",
+      "version": "1",
       "types": [
         {
           "name": "TYPE_KNOCK",
