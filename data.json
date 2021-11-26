@@ -1,5 +1,5 @@
-[
-  {
+ [
+   {
     "id": "1",
     "name": "Nature",
     "backgroundUrl": "nature_background.jpg",
@@ -22,12 +22,12 @@
                   "init": "red_rose/red_rose_init_state_view.png",
                   "draw": "red_rose/red_rose_init_state_view.png"
                 }
-              ],
-              "indicator": {
-                "url": "red_rose/red_rose_empty_indicator_state_view.png",
-                "emptyColor": "#32CD32",
-                "filledColor": "#642196"
-              }
+              ]
+            },
+            "indicator": {
+              "url": "red_rose/red_rose_empty_indicator_state_view.png",
+              "emptyColor": "#32CD32",
+              "filledColor": "#642196"
             }
           },
           {
