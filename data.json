@@ -1,103 +1,117 @@
- [
-  {
+[
+ {
   "id": "1",
   "name": "Nature",
   "backgroundUrl": "nature_background.jpg",
   "version": "1",
-  "themes": [
+  "types": [
     {
-      "id": "1",
-      "name": "Red Rose",
-      "version": "1",
-      "solidColor": "#32CD32",
-      "types": [
+      "name": "TYPE_PIN",
+      "themes": [
         {
-          "name": "TYPE_KNOCK",
+          "id": "1",
+          "name": "Red Rose",
+          "version": "1",
           "thumbUrl": "red_rose/red_rose_thumb_blurred.jpg",
           "backgroundUrl": "red_rose/red_rose_background.jpg",
+          "solidColor": null,
+          "stateHolder": {
+            "hasTwoState": true,
+            "states": [
+              {
+                "init": "red_rose/red_rose_init_state_view.png",
+                "draw": "red_rose/red_rose_on_touch_state_view.png"
+              },
+              {
+                "init": "red_rose/red_rose_init_state_view.png",
+                "draw": "red_rose/red_rose_on_touch_state_view.png"
+              },
+              {
+                "init": "red_rose/red_rose_init_state_view.png",
+                "draw": "red_rose/red_rose_on_touch_state_view.png"
+              },
+              {
+                "init": "red_rose/red_rose_init_state_view.png",
+                "draw": "red_rose/red_rose_on_touch_state_view.png"
+              },
+              {
+                "init": "red_rose/red_rose_init_state_view.png",
+                "draw": "red_rose/red_rose_on_touch_state_view.png"
+              },
+              {
+                "init": "red_rose/red_rose_init_state_view.png",
+                "draw": "red_rose/red_rose_on_touch_state_view.png"
+              },
+              {
+                "init": "red_rose/red_rose_init_state_view.png",
+                "draw": "red_rose/red_rose_on_touch_state_view.png"
+              },
+              {
+                "init": "red_rose/red_rose_init_state_view.png",
+                "draw": "red_rose/red_rose_on_touch_state_view.png"
+              },
+              {
+                "init": "red_rose/red_rose_init_state_view.png",
+                "draw": "red_rose/red_rose_on_touch_state_view.png"
+              }
+            ]
+          },
+          "indicator": {
+            "url": "red_rose/red_rose_empty_indicator_state_view.png",
+            "emptyColor": "#32CD32",
+            "filledColor": "#642196"
+          }
+        }
+      ]
+    },
+    {
+      "name": "TYPE_PATTERN",
+      "themes": [
+        {
+          "id": "2",
+          "name": "Red Rose",
+          "version": "1",
+          "thumbUrl": "red_rose/red_rose_solid_background.jpg",
+          "backgroundUrl": null,
+          "lineColor": "#WHITE",
+          "solidColor": "#RED",
+          "stateHolder": {
+            "hasTwoState": true,
+            "states": [
+              {
+                "init": "red_rose/red_rose_init_state_view.png",
+                "draw": "red_rose/red_rose_on_touch_state_view.png"
+              }
+            ]
+          },
+          "indicator": null
+        }
+      ]
+    },
+    {
+      "name": "TYPE_KNOCK",
+      "themes": [
+        {
+          "id": "3",
+          "name": "Red Rose",
+          "version": "1",
+          "thumbUrl": "red_rose/red_rose_solid_background.jpg",
+          "backgroundUrl": null,
+          "lineColor": null,
+          "solidColor": "#RED",
           "stateHolder": {
             "hasTwoState": false,
             "states": [
               {
                 "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_init_state_view.png"
+                "draw": "red_rose/red_rose_on_touch_state_view"
               }
             ]
           },
-          "indicator": {
-            "url": "red_rose/red_rose_empty_indicator_state_view.png",
-            "emptyColor": "#32CD32",
-            "filledColor": "#642196"
-          }
-        },
-        {
-          "name": "TYPE_PIN",
-          "thumbUrl": "red_rose/red_rose_thumb_blurred.jpg",
-          "backgroundUrl": "red_rose/red_rose_background.jpg",
-          "stateHolder": {
-            "hasTwoState": true,
-            "states": [
-              {
-                "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_init_state_view.png"
-              },
-              {
-                "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_init_state_view.png"
-              },
-              {
-                "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_init_state_view.png"
-              },
-              {
-                "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_init_state_view.png"
-              },
-              {
-                "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_init_state_view.png"
-              },
-              {
-                "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_init_state_view.png"
-              },
-              {
-                "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_init_state_view.png"
-              },
-              {
-                "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_init_state_view.png"
-              },
-              {
-                "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_init_state_view.png"
-              }
-            ]
-          },
-          "indicator": {
-            "url": "red_rose/red_rose_empty_indicator_state_view.png",
-            "emptyColor": "#32CD32",
-            "filledColor": "#642196"
-          }
-        },
-        {
-          "name": "TYPE_PATTERN",
-          "thumbUrl": "red_rose/red_rose_thumb_blurred.jpg",
-          "backgroundUrl": "red_rose/red_rose_background.jpg",
-          "lineColor": "#32CD32",
-          "stateHolder": {
-            "hasTwoState": true,
-            "states": [
-              {
-                "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_init_state_view.png"
-              }
-            ]
-          }
+          "indicator": null
         }
       ]
     }
   ]
-  }
+}
 ]
