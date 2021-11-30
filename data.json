@@ -73,8 +73,8 @@
           "version": "1",
           "thumbUrl": "red_rose/red_rose_thumb_blurred.jpg",
           "backgroundUrl": null,
-          "lineColor": "#WHITE",
-          "solidColor": "#RED",
+          "lineColor": "#FFFFFF",
+          "solidColor": "#21AB96",
           "stateHolder": {
             "hasTwoState": true,
             "states": [
@@ -98,7 +98,7 @@
           "thumbUrl": "red_rose/red_rose_thumb_blurred.jpg",
           "backgroundUrl": null,
           "lineColor": null,
-          "solidColor": "#RED",
+          "solidColor": "#21AB97",
           "stateHolder": {
             "hasTwoState": false,
             "states": [
