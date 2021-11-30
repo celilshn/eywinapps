@@ -74,7 +74,7 @@
           "thumbUrl": "red_rose/red_rose_thumb_pattern.jpg",
           "backgroundUrl": null,
           "lineColor": "#FFFFFF",
-          "solidColor": "#21AB96",
+          "solidColor": "#F00",
           "stateHolder": {
             "hasTwoState": true,
             "states": [
@@ -98,7 +98,7 @@
           "thumbUrl": "red_rose/red_rose_thumb_blurred.jpg",
           "backgroundUrl": null,
           "lineColor": null,
-          "solidColor": "#21AB97",
+          "solidColor": "#FF0000",
           "stateHolder": {
             "hasTwoState": false,
             "states": [
