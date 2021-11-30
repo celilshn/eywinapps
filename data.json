@@ -104,7 +104,7 @@
             "states": [
               {
                 "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_on_touch_state_view"
+                "draw": "red_rose/red_rose_on_touch_state_view.png"
               }
             ]
           },
