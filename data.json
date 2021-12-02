@@ -17,6 +17,8 @@
           "solidColor": null,
           "stateHolder": {
             "hasTwoState": true,
+            "clearUrl": "red_rose/red_rose_clear_icon.png",
+            "backspaceUrl": "red_rose/red_rose_backspace_icon.png",
             "states": [
               {
                 "init": "red_rose/red_rose_init_state_view.png",
@@ -77,8 +79,8 @@
           "solidColor": "#F00",
           "stateHolder": {
             "hasTwoState": true,
-            "clearUrl": "red_rose/red_rose_clear_icon.png"
-            "backspaceUrl": "red_rose/red_rose_backspace_icon.png"
+            "clearUrl": null,
+            "backspaceUrl": null,
             "states": [
               {
                 "init": "red_rose/red_rose_init_state_view.png",
@@ -102,7 +104,9 @@
           "lineColor": null,
           "solidColor": "#FF0000",
           "stateHolder": {
-            "hasTwoState": false,
+           "hasTwoState": false,
+           "clearUrl": null,
+           "backspaceUrl": null,
             "states": [
               {
                 "init": "red_rose/red_rose_init_state_view.png",
