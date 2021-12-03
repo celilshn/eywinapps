@@ -59,9 +59,8 @@
             ]
           },
           "indicator": {
-            "url": "red_rose/red_rose_empty_indicator_state_view.png",
-            "emptyColor": "#32CD32",
-            "filledColor": "#642196"
+            "emptyUrl": "red_rose/red_rose_empty_indicator_state_view.png",
+            "filledUrl": "red_rose/red_rose_filled_indicator_state_view.png"
           }
         }
       ]
