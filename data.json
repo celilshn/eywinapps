@@ -15,6 +15,7 @@
           "thumbUrl": "red_rose/red_rose_thumb_blurred.jpg",
           "backgroundUrl": "red_rose/red_rose_background.jpg",
           "solidColor": null,
+          "lineColor":null,
           "stateHolder": {
             "hasTwoState": true,
             "clearUrl": "red_rose/red_rose_clear_icon.png",
