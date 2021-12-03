@@ -335,7 +335,63 @@
             "emptyUrl": "holiday/holiday_1/holiday_1_empty_indicator_state_view.png",
             "filledUrl": "holiday/holiday_1/holiday_1_filled_indicator_state_view.png"
           }
-        }
+        },
+        {
+      "id": "8",
+      "name": "Holiday 2",
+      "version": "1",
+      "thumbUrl": "holiday/holiday_2/holiday_2_thumb_pin.png",
+      "backgroundUrl": "holiday/holiday_2/holiday_2_background.jpg",
+      "solidColor": null,
+      "lineColor": null,
+      "stateHolder": {
+        "hasTwoState": true,
+        "clearUrl": "holiday/holiday_2/holiday_2_backspace_icon.png",
+        "backspaceUrl": "holiday/holiday_2/holiday_2_backspace_icon.png",
+        "states": [
+          {
+            "init": "holiday/holiday_2/holiday_2_init_state_view.png",
+            "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
+          },
+          {
+            "init": "holiday/holiday_2/holiday_2_init_state_view.png",
+            "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
+          },
+          {
+            "init": "holiday/holiday_2/holiday_2_init_state_view.png",
+            "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
+          },
+          {
+            "init": "holiday/holiday_2/holiday_2_init_state_view.png",
+            "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
+          },
+          {
+            "init": "holiday/holiday_2/holiday_2_init_state_view.png",
+            "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
+          },
+          {
+            "init": "holiday/holiday_2/holiday_2_init_state_view.png",
+            "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
+          },
+          {
+            "init": "holiday/holiday_2/holiday_2_init_state_view.png",
+            "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
+          },
+          {
+            "init": "holiday/holiday_2/holiday_2_init_state_view.png",
+            "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
+          },
+          {
+            "init": "holiday/holiday_2/holiday_2_init_state_view.png",
+            "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
+          }
+        ]
+      },
+      "indicator": {
+        "emptyUrl": "holiday/holiday_2/holiday_2_empty_indicator_state_view.png",
+        "filledUrl": "holiday/holiday_2/holiday_2_filled_indicator_state_view.png"
+      }
+    }
       ]
     }
   ]
