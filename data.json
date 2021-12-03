@@ -241,31 +241,31 @@
                      ]
                   },
                   "indicator":null
-               },
+               }
+            ]
+         },
+         {
+            "name":"TYPE_KNOCK",
+            "themes":[
                {
-                  "name":"TYPE_KNOCK",
-                  "themes":[
-                     {
-                        "id":6,
-                        "name":"Head Ball",
-                        "version":1,
-                        "thumbUrl":"sport/head_ball/head_ball_thumb.png",
-                        "backgroundUrl":"sport/head_ball/head_ball_background.png",
-                        "solidColor":null,
-                        "stateHolder":{
-                           "hasTwoState":false,
-                           "clearUrl":null,
-                           "backspaceUrl":null,
-                           "states":[
-                              {
-                                 "init":"sport/head_ball/head_ball_init.png",
-                                 "draw":"sport/head_ball/head_ball_draw.png"
-                              }
-                           ]
-                        },
-                        "indicator":null
-                     }
-                  ]
+                  "id":6,
+                  "name":"Head Ball",
+                  "version":1,
+                  "thumbUrl":"sport/head_ball/head_ball_thumb.png",
+                  "backgroundUrl":"sport/head_ball/head_ball_background.png",
+                  "solidColor":null,
+                  "stateHolder":{
+                     "hasTwoState":false,
+                     "clearUrl":null,
+                     "backspaceUrl":null,
+                     "states":[
+                        {
+                           "init":"sport/head_ball/head_ball_init.png",
+                           "draw":"sport/head_ball/head_ball_draw.png"
+                        }
+                     ]
+                  },
+                  "indicator":null
                }
             ]
          }
