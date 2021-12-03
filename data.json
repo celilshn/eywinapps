@@ -1,275 +1,274 @@
 [
- {
-  "id": "1",
-  "name": "Nature",
-  "backgroundUrl": "nature_background.jpg",
-  "version": "1",
-  "types": [
-    {
-      "name": "TYPE_PIN",
-      "themes": [
-        {
-          "id": "1",
-          "name": "Red Rose",
-          "version": "1",
-          "thumbUrl": "red_rose/red_rose_thumb_blurred.jpg",
-          "backgroundUrl": "red_rose/red_rose_background.jpg",
-          "solidColor": null,
-          "lineColor":null,
-          "stateHolder": {
-            "hasTwoState": true,
-            "clearUrl": "red_rose/red_rose_clear_icon.png",
-            "backspaceUrl": "red_rose/red_rose_backspace_icon.png",
-            "states": [
-              {
-                "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_on_touch_state_view.png"
-              },
-              {
-                "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_on_touch_state_view.png"
-              },
-              {
-                "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_on_touch_state_view.png"
-              },
-              {
-                "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_on_touch_state_view.png"
-              },
-              {
-                "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_on_touch_state_view.png"
-              },
-              {
-                "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_on_touch_state_view.png"
-              },
-              {
-                "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_on_touch_state_view.png"
-              },
-              {
-                "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_on_touch_state_view.png"
-              },
-              {
-                "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_on_touch_state_view.png"
-              }
-            ]
-          },
-          "indicator": {
-            "emptyUrl": "red_rose/red_rose_empty_indicator_state_view.png",
-            "filledUrl": "red_rose/red_rose_filled_indicator_state_view.png"
-          }
-        }
-      ]
-    },
-    {
-      "name": "TYPE_PATTERN",
-      "themes": [
-        {
-          "id": "2",
-          "name": "Red Rose",
-          "version": "1",
-          "thumbUrl": "red_rose/red_rose_thumb_pattern.jpg",
-          "backgroundUrl": null,
-          "lineColor": "#FFFFFF",
-          "solidColor": "#F00",
-          "stateHolder": {
-            "hasTwoState": true,
-            "clearUrl": null,
-            "backspaceUrl": null,
-            "states": [
-              {
-                "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_on_touch_state_view.png"
-              }
-            ]
-          },
-          "indicator": null
-        }
-      ]
-    },
-    {
-      "name": "TYPE_KNOCK",
-      "themes": [
-        {
-          "id": "3",
-          "name": "Red Rose",
-          "version": "1",
-          "thumbUrl": "red_rose/red_rose_thumb_blurred.jpg",
-          "backgroundUrl": null,
-          "lineColor": null,
-          "solidColor": "#FF0000",
-          "stateHolder": {
-           "hasTwoState": false,
-           "clearUrl": null,
-           "backspaceUrl": null,
-            "states": [
-              {
-                "init": "red_rose/red_rose_init_state_view.png",
-                "draw": "red_rose/red_rose_on_touch_state_view.png"
-              }
-            ]
-          },
-          "indicator": null
-        }
-      ]
-    }
-  ]
-},
    {
-    "id": 1,
-    "name": "Sport",
-    "backgroundUrl": "sport/background.jpg",
-    "version": 1,
-    "types": [
-      {
-        "name": "TYPE_PIN",
-        "themes": [
-          {
-            "id": 4,
-            "name": "Head Ball",
-            "version": 1,
-            "thumbUrl": "sport/head_ball/head_ball_thumb.png",
-            "backgroundUrl": "sport/head_ball/head_ball_background.png",
-            "solidColor": null,
-            "stateHolder": {
-              "hasTwoState": true,
-              "clearUrl": "sport/head_ball/head_ball_backspace.png",
-              "backspaceUrl": "sport/head_ball/head_ball_backspace.png",
-              "states": [
-                {
-                  "init": "sport/head_ball/head_ball_init.png",
-                  "draw": "sport/head_ball/head_ball_draw.png"
-                },
-                {
-                  "init": "sport/head_ball/head_ball_init.png",
-                  "draw": "sport/head_ball/head_ball_draw.png"
-                },
-                {
-                  "init": "sport/head_ball/head_ball_init.png",
-                  "draw": "sport/head_ball/head_ball_draw.png"
-                },
-                {
-                  "init": "sport/head_ball/head_ball_init.png",
-                  "draw": "sport/head_ball/head_ball_draw.png"
-                },
-                {
-                  "init": "sport/head_ball/head_ball_init.png",
-                  "draw": "sport/head_ball/head_ball_draw.png"
-                },
-                {
-                  "init": "sport/head_ball/head_ball_init.png",
-                  "draw": "sport/head_ball/head_ball_draw.png"
-                },
-                {
-                  "init": "sport/head_ball/head_ball_init.png",
-                  "draw": "sport/head_ball/head_ball_draw.png"
-                },
-                {
-                  "init": "sport/head_ball/head_ball_init.png",
-                  "draw": "sport/head_ball/head_ball_draw.png"
-                },
-                {
-                  "init": "sport/head_ball/head_ball_init.png",
-                  "draw": "sport/head_ball/head_ball_draw.png"
-                }
-              ]
-            },
-            "indicator": {
-              "emptyUrl": "sport/head_ball/head_ball_backspace.png",
-              "filledUrl": "sport/head_ball/head_ball_empty_indicator.svg"
-            }
-          }
-        ]
-      },
-     {
-        "name": "TYPE_PATTERN",
-        "themes": [
-          {
-            "id": 5,
-            "name": "Head Ball",
-            "version": 1,
-            "thumbUrl": "sport/head_ball/head_ball_thumb.png",
-            "backgroundUrl": "sport/head_ball/head_ball_background.png",
-            "solidColor": null,
-            "lineColor": "#2F80ED",
-            "stateHolder": {
-              "hasTwoState": true,
-              "clearUrl": "sport/head_ball/head_ball_backspace.png",
-              "backspaceUrl": "sport/head_ball/head_ball_backspace.png",
-              "states": [
-                {
-                  "init": "sport/head_ball/head_ball_init.png",
-                  "draw": "sport/head_ball/head_ball_draw.png"
-                },
-                {
-                  "init": "sport/head_ball/head_ball_init.png",
-                  "draw": "sport/head_ball/head_ball_draw.png"
-                },
-                {
-                  "init": "sport/head_ball/head_ball_init.png",
-                  "draw": "sport/head_ball/head_ball_draw.png"
-                },
-                {
-                  "init": "sport/head_ball/head_ball_init.png",
-                  "draw": "sport/head_ball/head_ball_draw.png"
-                },
-                {
-                  "init": "sport/head_ball/head_ball_init.png",
-                  "draw": "sport/head_ball/head_ball_draw.png"
-                },
-                {
-                  "init": "sport/head_ball/head_ball_init.png",
-                  "draw": "sport/head_ball/head_ball_draw.png"
-                },
-                {
-                  "init": "sport/head_ball/head_ball_init.png",
-                  "draw": "sport/head_ball/head_ball_draw.png"
-                },
-                {
-                  "init": "sport/head_ball/head_ball_init.png",
-                  "draw": "sport/head_ball/head_ball_draw.png"
-                },
-                {
-                  "init": "sport/head_ball/head_ball_init.png",
-                  "draw": "sport/head_ball/head_ball_draw.png"
-                }
-              ]
-            },
-            "indicator": null
-  
-  },
-{
-        "name": "TYPE_KNOCK",
-        "themes": [
-          {
-            "id":6,
-            "name": "Head Ball",
-            "version": 1,
-            "thumbUrl": "sport/head_ball/head_ball_thumb.png",
-            "backgroundUrl": "sport/head_ball/head_ball_background.png",
-            "solidColor": null,
-            "stateHolder": {
-              "hasTwoState": false,
-              "clearUrl": null,
-              "backspaceUrl": null,
-              "states": [
-                {
-                  "init": "sport/head_ball/head_ball_init.png",
-                  "draw": "sport/head_ball/head_ball_draw.png"
-                }
-              ]
-            },
-            "indicator": null
-          }
-        ]
-      }
-    ]
-  }
-    ]
-  }
+      "id":"1",
+      "name":"Nature",
+      "backgroundUrl":"nature_background.jpg",
+      "version":"1",
+      "types":[
+         {
+            "name":"TYPE_PIN",
+            "themes":[
+               {
+                  "id":"1",
+                  "name":"Red Rose",
+                  "version":"1",
+                  "thumbUrl":"red_rose/red_rose_thumb_blurred.jpg",
+                  "backgroundUrl":"red_rose/red_rose_background.jpg",
+                  "solidColor":null,
+                  "lineColor":null,
+                  "stateHolder":{
+                     "hasTwoState":true,
+                     "clearUrl":"red_rose/red_rose_clear_icon.png",
+                     "backspaceUrl":"red_rose/red_rose_backspace_icon.png",
+                     "states":[
+                        {
+                           "init":"red_rose/red_rose_init_state_view.png",
+                           "draw":"red_rose/red_rose_on_touch_state_view.png"
+                        },
+                        {
+                           "init":"red_rose/red_rose_init_state_view.png",
+                           "draw":"red_rose/red_rose_on_touch_state_view.png"
+                        },
+                        {
+                           "init":"red_rose/red_rose_init_state_view.png",
+                           "draw":"red_rose/red_rose_on_touch_state_view.png"
+                        },
+                        {
+                           "init":"red_rose/red_rose_init_state_view.png",
+                           "draw":"red_rose/red_rose_on_touch_state_view.png"
+                        },
+                        {
+                           "init":"red_rose/red_rose_init_state_view.png",
+                           "draw":"red_rose/red_rose_on_touch_state_view.png"
+                        },
+                        {
+                           "init":"red_rose/red_rose_init_state_view.png",
+                           "draw":"red_rose/red_rose_on_touch_state_view.png"
+                        },
+                        {
+                           "init":"red_rose/red_rose_init_state_view.png",
+                           "draw":"red_rose/red_rose_on_touch_state_view.png"
+                        },
+                        {
+                           "init":"red_rose/red_rose_init_state_view.png",
+                           "draw":"red_rose/red_rose_on_touch_state_view.png"
+                        },
+                        {
+                           "init":"red_rose/red_rose_init_state_view.png",
+                           "draw":"red_rose/red_rose_on_touch_state_view.png"
+                        }
+                     ]
+                  },
+                  "indicator":{
+                     "emptyUrl":"red_rose/red_rose_empty_indicator_state_view.png",
+                     "filledUrl":"red_rose/red_rose_filled_indicator_state_view.png"
+                  }
+               }
+            ]
+         },
+         {
+            "name":"TYPE_PATTERN",
+            "themes":[
+               {
+                  "id":"2",
+                  "name":"Red Rose",
+                  "version":"1",
+                  "thumbUrl":"red_rose/red_rose_thumb_pattern.jpg",
+                  "backgroundUrl":null,
+                  "lineColor":"#FFFFFF",
+                  "solidColor":"#F00",
+                  "stateHolder":{
+                     "hasTwoState":true,
+                     "clearUrl":null,
+                     "backspaceUrl":null,
+                     "states":[
+                        {
+                           "init":"red_rose/red_rose_init_state_view.png",
+                           "draw":"red_rose/red_rose_on_touch_state_view.png"
+                        }
+                     ]
+                  },
+                  "indicator":null
+               }
+            ]
+         },
+         {
+            "name":"TYPE_KNOCK",
+            "themes":[
+               {
+                  "id":"3",
+                  "name":"Red Rose",
+                  "version":"1",
+                  "thumbUrl":"red_rose/red_rose_thumb_blurred.jpg",
+                  "backgroundUrl":null,
+                  "lineColor":null,
+                  "solidColor":"#FF0000",
+                  "stateHolder":{
+                     "hasTwoState":false,
+                     "clearUrl":null,
+                     "backspaceUrl":null,
+                     "states":[
+                        {
+                           "init":"red_rose/red_rose_init_state_view.png",
+                           "draw":"red_rose/red_rose_on_touch_state_view.png"
+                        }
+                     ]
+                  },
+                  "indicator":null
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "id":1,
+      "name":"Sport",
+      "backgroundUrl":"sport/background.jpg",
+      "version":1,
+      "types":[
+         {
+            "name":"TYPE_PIN",
+            "themes":[
+               {
+                  "id":4,
+                  "name":"Head Ball",
+                  "version":1,
+                  "thumbUrl":"sport/head_ball/head_ball_thumb.png",
+                  "backgroundUrl":"sport/head_ball/head_ball_background.png",
+                  "solidColor":null,
+                  "stateHolder":{
+                     "hasTwoState":true,
+                     "clearUrl":"sport/head_ball/head_ball_backspace.png",
+                     "backspaceUrl":"sport/head_ball/head_ball_backspace.png",
+                     "states":[
+                        {
+                           "init":"sport/head_ball/head_ball_init.png",
+                           "draw":"sport/head_ball/head_ball_draw.png"
+                        },
+                        {
+                           "init":"sport/head_ball/head_ball_init.png",
+                           "draw":"sport/head_ball/head_ball_draw.png"
+                        },
+                        {
+                           "init":"sport/head_ball/head_ball_init.png",
+                           "draw":"sport/head_ball/head_ball_draw.png"
+                        },
+                        {
+                           "init":"sport/head_ball/head_ball_init.png",
+                           "draw":"sport/head_ball/head_ball_draw.png"
+                        },
+                        {
+                           "init":"sport/head_ball/head_ball_init.png",
+                           "draw":"sport/head_ball/head_ball_draw.png"
+                        },
+                        {
+                           "init":"sport/head_ball/head_ball_init.png",
+                           "draw":"sport/head_ball/head_ball_draw.png"
+                        },
+                        {
+                           "init":"sport/head_ball/head_ball_init.png",
+                           "draw":"sport/head_ball/head_ball_draw.png"
+                        },
+                        {
+                           "init":"sport/head_ball/head_ball_init.png",
+                           "draw":"sport/head_ball/head_ball_draw.png"
+                        },
+                        {
+                           "init":"sport/head_ball/head_ball_init.png",
+                           "draw":"sport/head_ball/head_ball_draw.png"
+                        }
+                     ]
+                  },
+                  "indicator":{
+                     "emptyUrl":"sport/head_ball/head_ball_backspace.png",
+                     "filledUrl":"sport/head_ball/head_ball_empty_indicator.svg"
+                  }
+               }
+            ]
+         },
+         {
+            "name":"TYPE_PATTERN",
+            "themes":[
+               {
+                  "id":5,
+                  "name":"Head Ball",
+                  "version":1,
+                  "thumbUrl":"sport/head_ball/head_ball_thumb.png",
+                  "backgroundUrl":"sport/head_ball/head_ball_background.png",
+                  "solidColor":null,
+                  "lineColor":"#2F80ED",
+                  "stateHolder":{
+                     "hasTwoState":true,
+                     "clearUrl":"sport/head_ball/head_ball_backspace.png",
+                     "backspaceUrl":"sport/head_ball/head_ball_backspace.png",
+                     "states":[
+                        {
+                           "init":"sport/head_ball/head_ball_init.png",
+                           "draw":"sport/head_ball/head_ball_draw.png"
+                        },
+                        {
+                           "init":"sport/head_ball/head_ball_init.png",
+                           "draw":"sport/head_ball/head_ball_draw.png"
+                        },
+                        {
+                           "init":"sport/head_ball/head_ball_init.png",
+                           "draw":"sport/head_ball/head_ball_draw.png"
+                        },
+                        {
+                           "init":"sport/head_ball/head_ball_init.png",
+                           "draw":"sport/head_ball/head_ball_draw.png"
+                        },
+                        {
+                           "init":"sport/head_ball/head_ball_init.png",
+                           "draw":"sport/head_ball/head_ball_draw.png"
+                        },
+                        {
+                           "init":"sport/head_ball/head_ball_init.png",
+                           "draw":"sport/head_ball/head_ball_draw.png"
+                        },
+                        {
+                           "init":"sport/head_ball/head_ball_init.png",
+                           "draw":"sport/head_ball/head_ball_draw.png"
+                        },
+                        {
+                           "init":"sport/head_ball/head_ball_init.png",
+                           "draw":"sport/head_ball/head_ball_draw.png"
+                        },
+                        {
+                           "init":"sport/head_ball/head_ball_init.png",
+                           "draw":"sport/head_ball/head_ball_draw.png"
+                        }
+                     ]
+                  },
+                  "indicator":null
+               },
+               {
+                  "name":"TYPE_KNOCK",
+                  "themes":[
+                     {
+                        "id":6,
+                        "name":"Head Ball",
+                        "version":1,
+                        "thumbUrl":"sport/head_ball/head_ball_thumb.png",
+                        "backgroundUrl":"sport/head_ball/head_ball_background.png",
+                        "solidColor":null,
+                        "stateHolder":{
+                           "hasTwoState":false,
+                           "clearUrl":null,
+                           "backspaceUrl":null,
+                           "states":[
+                              {
+                                 "init":"sport/head_ball/head_ball_init.png",
+                                 "draw":"sport/head_ball/head_ball_draw.png"
+                              }
+                           ]
+                        },
+                        "indicator":null
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
 ]
