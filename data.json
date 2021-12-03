@@ -118,5 +118,160 @@
       ]
     }
   ]
-}
+},
+   {
+    "id": 1,
+    "name": "Sport",
+    "backgroundUrl": "sport/background.jpg",
+    "version": 1,
+    "types": [
+      {
+        "name": "TYPE_PIN",
+        "themes": [
+          {
+            "id": 4,
+            "name": "Head Ball",
+            "version": 1,
+            "thumbUrl": "sport/head_ball/head_ball_thumb.png",
+            "backgroundUrl": "sport/head_ball/head_ball_background.png",
+            "solidColor": null,
+            "stateHolder": {
+              "hasTwoState": true,
+              "clearUrl": "sport/head_ball/head_ball_backspace.png",
+              "backspaceUrl": "sport/head_ball/head_ball_backspace.png",
+              "states": [
+                {
+                  "init": "sport/head_ball/head_ball_init.png",
+                  "draw": "sport/head_ball/head_ball_draw.png"
+                },
+                {
+                  "init": "sport/head_ball/head_ball_init.png",
+                  "draw": "sport/head_ball/head_ball_draw.png"
+                },
+                {
+                  "init": "sport/head_ball/head_ball_init.png",
+                  "draw": "sport/head_ball/head_ball_draw.png"
+                },
+                {
+                  "init": "sport/head_ball/head_ball_init.png",
+                  "draw": "sport/head_ball/head_ball_draw.png"
+                },
+                {
+                  "init": "sport/head_ball/head_ball_init.png",
+                  "draw": "sport/head_ball/head_ball_draw.png"
+                },
+                {
+                  "init": "sport/head_ball/head_ball_init.png",
+                  "draw": "sport/head_ball/head_ball_draw.png"
+                },
+                {
+                  "init": "sport/head_ball/head_ball_init.png",
+                  "draw": "sport/head_ball/head_ball_draw.png"
+                },
+                {
+                  "init": "sport/head_ball/head_ball_init.png",
+                  "draw": "sport/head_ball/head_ball_draw.png"
+                },
+                {
+                  "init": "sport/head_ball/head_ball_init.png",
+                  "draw": "sport/head_ball/head_ball_draw.png"
+                }
+              ]
+            },
+            "indicator": {
+              "emptyUrl": "sport/head_ball/head_ball_backspace.png",
+              "filledUrl": "sport/head_ball/head_ball_empty_indicator.svg"
+            }
+          }
+        ]
+      }
+    ]
+  },
+ {
+        "name": "TYPE_PATTERN",
+        "themes": [
+          {
+            "id": 5,
+            "name": "Head Ball",
+            "version": 1,
+            "thumbUrl": "sport/head_ball/head_ball_thumb.png",
+            "backgroundUrl": "sport/head_ball/head_ball_background.png",
+            "solidColor": null,
+            "lineColor": "#2F80ED",
+            "stateHolder": {
+              "hasTwoState": true,
+              "clearUrl": "sport/head_ball/head_ball_backspace.png",
+              "backspaceUrl": "sport/head_ball/head_ball_backspace.png",
+              "states": [
+                {
+                  "init": "sport/head_ball/head_ball_init.png",
+                  "draw": "sport/head_ball/head_ball_draw.png"
+                },
+                {
+                  "init": "sport/head_ball/head_ball_init.png",
+                  "draw": "sport/head_ball/head_ball_draw.png"
+                },
+                {
+                  "init": "sport/head_ball/head_ball_init.png",
+                  "draw": "sport/head_ball/head_ball_draw.png"
+                },
+                {
+                  "init": "sport/head_ball/head_ball_init.png",
+                  "draw": "sport/head_ball/head_ball_draw.png"
+                },
+                {
+                  "init": "sport/head_ball/head_ball_init.png",
+                  "draw": "sport/head_ball/head_ball_draw.png"
+                },
+                {
+                  "init": "sport/head_ball/head_ball_init.png",
+                  "draw": "sport/head_ball/head_ball_draw.png"
+                },
+                {
+                  "init": "sport/head_ball/head_ball_init.png",
+                  "draw": "sport/head_ball/head_ball_draw.png"
+                },
+                {
+                  "init": "sport/head_ball/head_ball_init.png",
+                  "draw": "sport/head_ball/head_ball_draw.png"
+                },
+                {
+                  "init": "sport/head_ball/head_ball_init.png",
+                  "draw": "sport/head_ball/head_ball_draw.png"
+                }
+              ]
+            },
+            "indicator": null
+          }
+        ]
+      }
+    ]
+  },
+{
+        "name": "TYPE_KNOCK",
+        "themes": [
+          {
+            "id":6,
+            "name": "Head Ball",
+            "version": 1,
+            "thumbUrl": "sport/head_ball/head_ball_thumb.png",
+            "backgroundUrl": "sport/head_ball/head_ball_background.png",
+            "solidColor": null,
+            "stateHolder": {
+              "hasTwoState": false,
+              "clearUrl": null,
+              "backspaceUrl": null,
+              "states": [
+                {
+                  "init": "sport/head_ball/head_ball_init.png",
+                  "draw": "sport/head_ball/head_ball_draw.png"
+                }
+              ]
+            },
+            "indicator": null
+          }
+        ]
+      }
+    ]
+  }
 ]
