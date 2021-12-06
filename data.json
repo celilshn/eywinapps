@@ -272,128 +272,184 @@
     ]
   },
   {
-  "id": "3",
-  "name": "Holiday",
-  "backgroundUrl": "holiday/holiday_background.png",
-  "version": "1",
-  "types": [
-    {
-      "name": "TYPE_PIN",
-      "themes": [
-        {
-          "id": "7",
-          "name": "Holiday 1",
-          "version": "1",
-          "thumbUrl": "holiday/holiday_1/holiday_1_thumb_pin.png",
-          "backgroundUrl": "holiday/holiday_1/holiday_1_background.jpg",
-          "solidColor": null,
-          "lineColor": null,
-          "stateHolder": {
-            "hasTwoState": true,
-            "clearUrl": "holiday/holiday_1/holiday_1_backspace_icon.png",
-            "backspaceUrl": "holiday/holiday_1/holiday_1_backspace_icon.png",
-            "states": [
-              {
-                "init": "holiday/holiday_1/holiday_1_init_state_view.png",
-                "draw": "holiday/holiday_1/holiday_1_on_touch_state_view.png"
-              },
-              {
-                "init": "holiday/holiday_1/holiday_1_init_state_view.png",
-                "draw": "holiday/holiday_1/holiday_1_on_touch_state_view.png"
-              },
-              {
-                "init": "holiday/holiday_1/holiday_1_init_state_view.png",
-                "draw": "holiday/holiday_1/holiday_1_on_touch_state_view.png"
-              },
-              {
-                "init": "holiday/holiday_1/holiday_1_init_state_view.png",
-                "draw": "holiday/holiday_1/holiday_1_on_touch_state_view.png"
-              },
-              {
-                "init": "holiday/holiday_1/holiday_1_init_state_view.png",
-                "draw": "holiday/holiday_1/holiday_1_on_touch_state_view.png"
-              },
-              {
-                "init": "holiday/holiday_1/holiday_1_init_state_view.png",
-                "draw": "holiday/holiday_1/holiday_1_on_touch_state_view.png"
-              },
-              {
-                "init": "holiday/holiday_1/holiday_1_init_state_view.png",
-                "draw": "holiday/holiday_1/holiday_1_on_touch_state_view.png"
-              },
-              {
-                "init": "holiday/holiday_1/holiday_1_init_state_view.png",
-                "draw": "holiday/holiday_1/holiday_1_on_touch_state_view.png"
-              },
-              {
-                "init": "holiday/holiday_1/holiday_1_init_state_view.png",
-                "draw": "holiday/holiday_1/holiday_1_on_touch_state_view.png"
-              }
-            ]
-          },
-          "indicator": {
-            "emptyUrl": "holiday/holiday_1/holiday_1_empty_indicator_state_view.png",
-            "filledUrl": "holiday/holiday_1/holiday_1_filled_indicator_state_view.png"
-          }
-        },
-        {
-      "id": "8",
-      "name": "Holiday 2",
-      "version": "1",
-      "thumbUrl": "holiday/holiday_2/holiday_2_thumb_pin.png",
-      "backgroundUrl": "holiday/holiday_2/holiday_2_background.jpg",
-      "solidColor": null,
-      "lineColor": null,
-      "stateHolder": {
-        "hasTwoState": true,
-        "clearUrl": "holiday/holiday_2/holiday_2_backspace_icon.png",
-        "backspaceUrl": "holiday/holiday_2/holiday_2_backspace_icon.png",
-        "states": [
+    "id": "3",
+    "name": "Holiday",
+    "backgroundUrl": "holiday/holiday_background.png",
+    "version": "1",
+    "types": [
+      {
+        "name": "TYPE_PIN",
+        "themes": [
           {
-            "init": "holiday/holiday_2/holiday_2_init_state_view.png",
-            "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
+            "id": "7",
+            "name": "Holiday 1",
+            "version": "1",
+            "thumbUrl": "holiday/holiday_1/holiday_1_thumb_pin.png",
+            "backgroundUrl": "holiday/holiday_1/holiday_1_background.jpg",
+            "solidColor": null,
+            "lineColor": null,
+            "stateHolder": {
+              "hasTwoState": true,
+              "clearUrl": "holiday/holiday_1/holiday_1_backspace_icon.png",
+              "backspaceUrl": "holiday/holiday_1/holiday_1_backspace_icon.png",
+              "states": [
+                {
+                  "init": "holiday/holiday_1/holiday_1_init_state_view.png",
+                  "draw": "holiday/holiday_1/holiday_1_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_1/holiday_1_init_state_view.png",
+                  "draw": "holiday/holiday_1/holiday_1_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_1/holiday_1_init_state_view.png",
+                  "draw": "holiday/holiday_1/holiday_1_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_1/holiday_1_init_state_view.png",
+                  "draw": "holiday/holiday_1/holiday_1_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_1/holiday_1_init_state_view.png",
+                  "draw": "holiday/holiday_1/holiday_1_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_1/holiday_1_init_state_view.png",
+                  "draw": "holiday/holiday_1/holiday_1_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_1/holiday_1_init_state_view.png",
+                  "draw": "holiday/holiday_1/holiday_1_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_1/holiday_1_init_state_view.png",
+                  "draw": "holiday/holiday_1/holiday_1_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_1/holiday_1_init_state_view.png",
+                  "draw": "holiday/holiday_1/holiday_1_on_touch_state_view.png"
+                }
+              ]
+            },
+            "indicator": {
+              "emptyUrl": "holiday/holiday_1/holiday_1_empty_indicator_state_view.png",
+              "filledUrl": "holiday/holiday_1/holiday_1_filled_indicator_state_view.png"
+            }
           },
           {
-            "init": "holiday/holiday_2/holiday_2_init_state_view.png",
-            "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
+            "id": "8",
+            "name": "Holiday 2",
+            "version": "1",
+            "thumbUrl": "holiday/holiday_2/holiday_2_thumb_pin.png",
+            "backgroundUrl": "holiday/holiday_2/holiday_2_background.jpg",
+            "solidColor": null,
+            "lineColor": null,
+            "stateHolder": {
+              "hasTwoState": true,
+              "clearUrl": "holiday/holiday_2/holiday_2_backspace_icon.png",
+              "backspaceUrl": "holiday/holiday_2/holiday_2_backspace_icon.png",
+              "states": [
+                {
+                  "init": "holiday/holiday_2/holiday_2_init_state_view.png",
+                  "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_2/holiday_2_init_state_view.png",
+                  "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_2/holiday_2_init_state_view.png",
+                  "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_2/holiday_2_init_state_view.png",
+                  "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_2/holiday_2_init_state_view.png",
+                  "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_2/holiday_2_init_state_view.png",
+                  "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_2/holiday_2_init_state_view.png",
+                  "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_2/holiday_2_init_state_view.png",
+                  "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_2/holiday_2_init_state_view.png",
+                  "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
+                }
+              ]
+            },
+            "indicator": {
+              "emptyUrl": "holiday/holiday_2/holiday_2_empty_indicator_state_view.png",
+              "filledUrl": "holiday/holiday_2/holiday_2_filled_indicator_state_view.png"
+            }
           },
           {
-            "init": "holiday/holiday_2/holiday_2_init_state_view.png",
-            "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
-          },
-          {
-            "init": "holiday/holiday_2/holiday_2_init_state_view.png",
-            "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
-          },
-          {
-            "init": "holiday/holiday_2/holiday_2_init_state_view.png",
-            "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
-          },
-          {
-            "init": "holiday/holiday_2/holiday_2_init_state_view.png",
-            "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
-          },
-          {
-            "init": "holiday/holiday_2/holiday_2_init_state_view.png",
-            "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
-          },
-          {
-            "init": "holiday/holiday_2/holiday_2_init_state_view.png",
-            "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
-          },
-          {
-            "init": "holiday/holiday_2/holiday_2_init_state_view.png",
-            "draw": "holiday/holiday_2/holiday_2_on_touch_state_view.png"
+            "id": "9",
+            "name": "Holiday 3",
+            "version": "1",
+            "thumbUrl": "holiday/holiday_3/holiday_3_thumb_pin.png",
+            "backgroundUrl": "holiday/holiday_3/holiday_3_background.jpg",
+            "solidColor": null,
+            "lineColor": null,
+            "stateHolder": {
+              "hasTwoState": true,
+              "clearUrl": "holiday/holiday_3/holiday_3_backspace_icon.png",
+              "backspaceUrl": "holiday/holiday_3/holiday_3_backspace_icon.png",
+              "states": [
+                {
+                  "init": "holiday/holiday_3/holiday_3_init_state_view.png",
+                  "draw": "holiday/holiday_3/holiday_3_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_3/holiday_3_init_state_view.png",
+                  "draw": "holiday/holiday_3/holiday_3_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_3/holiday_3_init_state_view.png",
+                  "draw": "holiday/holiday_3/holiday_3_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_3/holiday_3_init_state_view.png",
+                  "draw": "holiday/holiday_3/holiday_3_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_3/holiday_3_init_state_view.png",
+                  "draw": "holiday/holiday_3/holiday_3_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_3/holiday_3_init_state_view.png",
+                  "draw": "holiday/holiday_3/holiday_3_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_3/holiday_3_init_state_view.png",
+                  "draw": "holiday/holiday_3/holiday_3_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_3/holiday_3_init_state_view.png",
+                  "draw": "holiday/holiday_3/holiday_3_on_touch_state_view.png"
+                },
+                {
+                  "init": "holiday/holiday_3/holiday_3_init_state_view.png",
+                  "draw": "holiday/holiday_3/holiday_3_on_touch_state_view.png"
+                }
+              ]
+            },
+            "indicator": {
+              "emptyUrl": "holiday/holiday_3/holiday_3_empty_indicator_state_view.png",
+              "filledUrl": "holiday/holiday_3/holiday_3_filled_indicator_state_view.png"
+            }
           }
         ]
-      },
-      "indicator": {
-        "emptyUrl": "holiday/holiday_2/holiday_2_empty_indicator_state_view.png",
-        "filledUrl": "holiday/holiday_2/holiday_2_filled_indicator_state_view.png"
       }
-    }
-      ]
-    }
-  ]
-}
+    ]
+  }
 ]
