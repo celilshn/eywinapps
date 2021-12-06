@@ -451,5 +451,186 @@
         ]
       }
     ]
-  }
+  },
+  {
+    "id": "4",
+    "name": "Fun",
+    "backgroundUrl": "fun/fun_background.png",
+    "version": "1",
+    "types": [
+      {
+        "name": "TYPE_PIN",
+        "themes": [
+          {
+            "id": "10",
+            "name": "Holiday 1",
+            "version": "1",
+            "thumbUrl": "fun/fun_1/fun_1_thumb_pin.png",
+            "backgroundUrl": "fun/fun_1/fun_1_background.jpg",
+            "solidColor": null,
+            "lineColor": null,
+            "stateHolder": {
+              "hasTwoState": true,
+              "clearUrl": "fun/fun_1/fun_1_backspace_icon.png",
+              "backspaceUrl": "fun/fun_1/fun_1_backspace_icon.png",
+              "states": [
+                {
+                  "init": "fun/fun_1/fun_1_init_state_view.png",
+                  "draw": "fun/fun_1/fun_1_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_1/fun_1_init_state_view.png",
+                  "draw": "fun/fun_1/fun_1_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_1/fun_1_init_state_view.png",
+                  "draw": "fun/fun_1/fun_1_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_1/fun_1_init_state_view.png",
+                  "draw": "fun/fun_1/fun_1_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_1/fun_1_init_state_view.png",
+                  "draw": "fun/fun_1/fun_1_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_1/fun_1_init_state_view.png",
+                  "draw": "fun/fun_1/fun_1_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_1/fun_1_init_state_view.png",
+                  "draw": "fun/fun_1/fun_1_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_1/fun_1_init_state_view.png",
+                  "draw": "fun/fun_1/fun_1_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_1/fun_1_init_state_view.png",
+                  "draw": "fun/fun_1/fun_1_on_touch_state_view.png"
+                }
+              ]
+            },
+            "indicator": {
+              "emptyUrl": "fun/fun_1/fun_1_empty_indicator_state_view.png",
+              "filledUrl": "fun/fun_1/fun_1_filled_indicator_state_view.png"
+            }
+          },
+          {
+            "id": "11",
+            "name": "Holiday 2",
+            "version": "1",
+            "thumbUrl": "fun/fun_2/fun_2_thumb_pin.png",
+            "backgroundUrl": "fun/fun_2/fun_2_background.jpg",
+            "solidColor": null,
+            "lineColor": null,
+            "stateHolder": {
+              "hasTwoState": true,
+              "clearUrl": "fun/fun_2/fun_2_backspace_icon.png",
+              "backspaceUrl": "fun/fun_2/fun_2_backspace_icon.png",
+              "states": [
+                {
+                  "init": "fun/fun_2/fun_2_init_state_view.png",
+                  "draw": "fun/fun_2/fun_2_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_2/fun_2_init_state_view.png",
+                  "draw": "fun/fun_2/fun_2_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_2/fun_2_init_state_view.png",
+                  "draw": "fun/fun_2/fun_2_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_2/fun_2_init_state_view.png",
+                  "draw": "fun/fun_2/fun_2_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_2/fun_2_init_state_view.png",
+                  "draw": "fun/fun_2/fun_2_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_2/fun_2_init_state_view.png",
+                  "draw": "fun/fun_2/fun_2_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_2/fun_2_init_state_view.png",
+                  "draw": "fun/fun_2/fun_2_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_2/fun_2_init_state_view.png",
+                  "draw": "fun/fun_2/fun_2_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_2/fun_2_init_state_view.png",
+                  "draw": "fun/fun_2/fun_2_on_touch_state_view.png"
+                }
+              ]
+            },
+            "indicator": {
+              "emptyUrl": "fun/fun_2/fun_2_empty_indicator_state_view.png",
+              "filledUrl": "fun/fun_2/fun_2_filled_indicator_state_view.png"
+            }
+          },
+          {
+            "id": "12",
+            "name": "Holiday 3",
+            "version": "1",
+            "thumbUrl": "fun/fun_3/fun_3_thumb_pin.png",
+            "backgroundUrl": "fun/fun_3/fun_3_background.jpg",
+            "solidColor": null,
+            "lineColor": null,
+            "stateHolder": {
+              "hasTwoState": true,
+              "clearUrl": "fun/fun_3/fun_3_backspace_icon.png",
+              "backspaceUrl": "fun/fun_3/fun_3_backspace_icon.png",
+              "states": [
+                {
+                  "init": "fun/fun_3/fun_3_init_state_view.png",
+                  "draw": "fun/fun_3/fun_3_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_3/fun_3_init_state_view.png",
+                  "draw": "fun/fun_3/fun_3_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_3/fun_3_init_state_view.png",
+                  "draw": "fun/fun_3/fun_3_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_3/fun_3_init_state_view.png",
+                  "draw": "fun/fun_3/fun_3_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_3/fun_3_init_state_view.png",
+                  "draw": "fun/fun_3/fun_3_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_3/fun_3_init_state_view.png",
+                  "draw": "fun/fun_3/fun_3_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_3/fun_3_init_state_view.png",
+                  "draw": "fun/fun_3/fun_3_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_3/fun_3_init_state_view.png",
+                  "draw": "fun/fun_3/fun_3_on_touch_state_view.png"
+                },
+                {
+                  "init": "fun/fun_3/fun_3_init_state_view.png",
+                  "draw": "fun/fun_3/fun_3_on_touch_state_view.png"
+                }
+              ]
+            },
+            "indicator": {
+              "emptyUrl": "fun/fun_3/fun_3_empty_indicator_state_view.png",
+              "filledUrl": "fun/fun_3/fun_3_filled_indicator_state_view.png"
+            }
+          }
+        ]
+      }
+    ]
+  },
 ]
