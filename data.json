@@ -463,7 +463,7 @@
         "themes": [
           {
             "id": "10",
-            "name": "Holiday 1",
+            "name": "Fun 1",
             "version": "1",
             "thumbUrl": "fun/fun_1/fun_1_thumb_pin.png",
             "backgroundUrl": "fun/fun_1/fun_1_background.jpg",
@@ -519,7 +519,7 @@
           },
           {
             "id": "11",
-            "name": "Holiday 2",
+            "name": "Fun 2",
             "version": "1",
             "thumbUrl": "fun/fun_2/fun_2_thumb_pin.png",
             "backgroundUrl": "fun/fun_2/fun_2_background.jpg",
@@ -575,7 +575,7 @@
           },
           {
             "id": "12",
-            "name": "Holiday 3",
+            "name": "Fun 3",
             "version": "1",
             "thumbUrl": "fun/fun_3/fun_3_thumb_pin.png",
             "backgroundUrl": "fun/fun_3/fun_3_background.jpg",
