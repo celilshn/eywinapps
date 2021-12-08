@@ -6,10 +6,10 @@
     version = 1,
     themes:[
       {
-        type:"PIN",
+        type:"TYPE_PIN",
         a:[1,3]
       },{
-        type:"PATTERN",
+        type:"TYPE_PATTERN",
         a:[2,4]
       }
       ]
