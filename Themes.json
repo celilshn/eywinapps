@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "version": 1,
+    "thumbUrl": "th_1.png",
+    "backgroundUrl": "t_bg_1.jpg",
+    "solidColor": null,
+    "lineColor": null,
+    "stateHolder": {
+      "hasTwoState": true,
+      "backspaceUrl": "backspace_icon_1.png",
+      "states": [
+        {
+          "init": "isv_1_1.png",
+          "draw": "tsv_1_1.png"
+        }
+      ]
+    },
+    "indicator": {
+      "emptyUrl": "eisv_1.png",
+      "filledUrl": "fisv_1.png"
+    },
+    "adversiting":null
+  },
+   {
+    "id": 2,
+    "version": 1,
+    "thumbUrl": "th_2.png",
+    "backgroundUrl": "t_bg_1.jpg",
+    "solidColor": null,
+    "lineColor": null,
+    "stateHolder": {
+      "hasTwoState": true,
+      "backspaceUrl": null,
+      "states": [
+        {
+          "init": "isv_1_1.png",
+          "draw": "tsv_1_1.png"
+        }
+      ]
+    },
+    "indicator": null,
+    "adversiting":null
+  },
+  {
+    "id": 3,
+    "version": 1,
+    "thumbUrl": "th_3.png",
+    "backgroundUrl": "t_bg_3.jpg",
+    "solidColor": null,
+    "lineColor": null,
+    "stateHolder": {
+      "hasTwoState": true,
+      "backspaceUrl": "backspace_icon_3.png",
+      "states": [
+        {
+          "init": "isv_3_1.png",
+          "draw": "tsv_3_1.png"
+        }
+      ]
+    },
+    "indicator": {
+      "emptyUrl": "eisv_3.png",
+      "filledUrl": "fisv_3.png"
+    },
+    "adversiting":null
+  },{
+    "id": 4,
+    "version": 1,
+    "thumbUrl": "th_4.png",
+    "backgroundUrl": "t_bg_3.jpg",
+    "solidColor": null,
+    "lineColor": null,
+    "stateHolder": {
+      "hasTwoState": true,
+      "backspaceUrl": null,
+      "states": [
+        {
+          "init": "isv_3_1.png",
+          "draw": "tsv_3_1.png"
+        }
+      ]
+    },
+    "indicator": null,
+    "adversiting":null
+  }
+]
