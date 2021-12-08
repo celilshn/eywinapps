@@ -1,16 +1,16 @@
 [
   {
-    id:1,
-    name:"Holiday",
-    backgroundUrl:"ctg_bg1.jpg",
-    version = 1,
-    themes:[
+    "id":1,
+    "name": "Holiday",
+    "backgroundUrl":"ctg_bg1.jpg",
+    "version" : 1,
+    "themes":[
       {
-        type:"TYPE_PIN",
-        a:[1,3]
+        "type":"TYPE_PIN",
+        "a":[1,3]
       },{
-        type:"TYPE_PATTERN",
-        a:[2,4]
+        "type":"TYPE_PATTERN",
+        "a":[2,4]
       }
       ]
     
