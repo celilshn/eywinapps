@@ -2,7 +2,7 @@
   {
     "id":1,
     "name": "Holiday",
-    "backgroundUrl":"ctg_bg1.jpg",
+    "backgroundUrl":"ctg_bg_1.jpg",
     "version" : 1,
     "themes":[
       {
