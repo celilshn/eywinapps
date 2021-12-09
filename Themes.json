@@ -3,7 +3,7 @@
     "id": 1,
     "version": 1,
     "thumbUrl": "th_1.png",
-    "backgroundUrl": "t_bg_1.jpg",
+    "backgroundUrl": "t_bg_1.png",
     "solidColor": null,
     "lineColor": null,
     "stateHolder": {
@@ -26,7 +26,7 @@
     "id": 2,
     "version": 1,
     "thumbUrl": "th_2.png",
-    "backgroundUrl": "t_bg_1.jpg",
+    "backgroundUrl": "t_bg_1.png",
     "solidColor": null,
     "lineColor": null,
     "stateHolder": {
@@ -46,7 +46,7 @@
     "id": 3,
     "version": 1,
     "thumbUrl": "th_3.png",
-    "backgroundUrl": "t_bg_3.jpg",
+    "backgroundUrl": "t_bg_3.png",
     "solidColor": null,
     "lineColor": null,
     "stateHolder": {
@@ -68,7 +68,7 @@
     "id": 4,
     "version": 1,
     "thumbUrl": "th_4.png",
-    "backgroundUrl": "t_bg_3.jpg",
+    "backgroundUrl": "t_bg_3.png",
     "solidColor": null,
     "lineColor": null,
     "stateHolder": {
