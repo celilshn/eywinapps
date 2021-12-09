@@ -1,18 +1,21 @@
-[
-  {
-    "id":1,
-    "name": "Holiday",
-    "backgroundUrl":"ctg_bg_1.png",
-    "version" : 1,
-    "themes":[
-      {
-        "type":"TYPE_PIN",
-        "themeIdList":[1,3]
-      },{
-        "type":"TYPE_PATTERN",
-        "themeIdList":[2,4]
-      }
+{
+  "versiyon": 1,
+  "categories": [
+    {
+      "category_id": "c1",
+      "photo_cover_id": "a2.png",
+      "category_name": "Winter",
+      "themes": [
+        "tema1","tema2","tema3","tema4","tema5","tema9"
       ]
-    
-  }
-]
+    },
+    {
+      "category_id": "c2",
+      "photo_cover_id": "g.png",
+      "category_name": "Space",
+      "themes": [
+        "tema6","tema7","tema8","tema10"
+      ]
+    }
+  ]
+}

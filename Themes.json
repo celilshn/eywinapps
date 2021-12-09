@@ -1,87 +1,510 @@
 [
   {
-    "id": 1,
-    "version": 1,
-    "thumbUrl": "th_1.png",
-    "backgroundUrl": "t_bg_1.png",
-    "solidColor": null,
-    "lineColor": null,
-    "stateHolder": {
-      "hasTwoState": true,
-      "backspaceUrl": "backspace_icon_1.png",
-      "states": [
-        {
-          "init": "isv_1_1.png",
-          "draw": "tsv_1_1.png"
+    "type": "TYPE_PIN",
+    "themes": [
+      {
+        "theme_id": "tema1",
+        "thumb_view_id": "a.png",
+        "background_view_id": "a1.png",
+        "filled_indicator_view_id": "a3.png",
+        "empty_indicator_view_id": "a4.png",
+        "button_views": [
+          {
+            "inited": "a5.png",
+            "clicked": "a6.png"
+          },
+          {
+            "inited": "a5.png",
+            "clicked": "a6.png"
+          },
+          {
+            "inited": "a5.png",
+            "clicked": "a6.png"
+          },
+          {
+            "inited": "a5.png",
+            "clicked": "a6.png"
+          },
+          {
+            "inited": "a5.png",
+            "clicked": "a6.png"
+          },
+          {
+            "inited": "a5.png",
+            "clicked": "a6.png"
+          },
+          {
+            "inited": "a5.png",
+            "clicked": "a6.png"
+          },
+          {
+            "inited": "a5.png",
+            "clicked": "a6.png"
+          },
+          {
+            "inited": "a5.png",
+            "clicked": "a6.png"
+          },
+          {
+            "inited": "a5.png",
+            "clicked": "a6.png"
+          }
+        ],
+        "back": {
+          "inited": "a5.png",
+          "clicked": "a6.png"
+        },
+        "clear": {
+          "inited": "a5.png",
+          "clicked": "a6.png"
         }
-      ]
-    },
-    "indicator": {
-      "emptyUrl": "eisv_1.png",
-      "filledUrl": "fisv_1.png"
-    },
-    "adversiting":null
-  },
-   {
-    "id": 2,
-    "version": 1,
-    "thumbUrl": "th_2.png",
-    "backgroundUrl": "t_bg_1.png",
-    "solidColor": null,
-    "lineColor": null,
-    "stateHolder": {
-      "hasTwoState": true,
-      "backspaceUrl": null,
-      "states": [
-        {
-          "init": "isv_1_1.png",
-          "draw": "tsv_1_1.png"
+      },
+      {
+        "theme_id": "tema2",
+        "thumb_view_id": "b.png",
+        "background_view_id": "b1.png",
+        "filled_indicator_view_id": "b2.png",
+        "empty_indicator_view_id": "b3.png",
+        "button_views": [
+          {
+            "inited": "b4.png",
+            "clicked": "b5.png"
+          },
+          {
+            "inited": "b4.png",
+            "clicked": "b5.png"
+          },
+          {
+            "inited": "b4.png",
+            "clicked": "b5.png"
+          },
+          {
+            "inited": "b4.png",
+            "clicked": "b5.png"
+          },
+          {
+            "inited": "b4.png",
+            "clicked": "b5.png"
+          },
+          {
+            "inited": "b4.png",
+            "clicked": "b5.png"
+          },
+          {
+            "inited": "b4.png",
+            "clicked": "b5.png"
+          },
+          {
+            "inited": "b4.png",
+            "clicked": "b5.png"
+          },
+          {
+            "inited": "b4.png",
+            "clicked": "b5.png"
+          },
+          {
+            "inited": "b4.png",
+            "clicked": "b5.png"
+          }
+        ],
+        "back": {
+          "inited": "b4.png",
+          "clicked": "b5.png"
+        },
+        "clear": {
+          "inited": "b4.png",
+          "clicked": "b5.png"
         }
-      ]
-    },
-    "indicator": null,
-    "adversiting":null
+      },
+      {
+        "theme_id": "tema3",
+        "thumb_view_id": "c.png",
+        "background_view_id": "c1.png",
+        "filled_indicator_view_id": "c2.png",
+        "empty_indicator_view_id": "c3.png",
+        "button_views": [
+          {
+            "inited": "c4.png",
+            "clicked": "c5.png"
+          },
+          {
+            "inited": "c4.png",
+            "clicked": "c5.png"
+          },
+          {
+            "inited": "c4.png",
+            "clicked": "c5.png"
+          },
+          {
+            "inited": "c4.png",
+            "clicked": "c5.png"
+          },
+          {
+            "inited": "c4.png",
+            "clicked": "c5.png"
+          },
+          {
+            "inited": "c4.png",
+            "clicked": "c5.png"
+          },
+          {
+            "inited": "c4.png",
+            "clicked": "c5.png"
+          },
+          {
+            "inited": "c4.png",
+            "clicked": "c5.png"
+          },
+          {
+            "inited": "c4.png",
+            "clicked": "c5.png"
+          },
+          {
+            "inited": "c4.png",
+            "clicked": "c5.png"
+          }
+        ],
+        "back": {
+          "inited": "c4.png",
+          "clicked": "c5.png"
+        },
+        "clear": {
+          "inited": "c4.png",
+          "clicked": "c5.png"
+        }
+      },
+      {
+        "theme_id": "tema6",
+        "thumb_view_id": "h.png",
+        "background_view_id": "h1.png",
+        "filled_indicator_view_id": "h2.png",
+        "empty_indicator_view_id": "h3.png",
+        "button_views": [
+          {
+            "inited": "h4.png",
+            "clicked": "h5.png"
+          },
+          {
+            "inited": "h4.png",
+            "clicked": "h5.png"
+          },
+          {
+            "inited": "h4.png",
+            "clicked": "h5.png"
+          },
+          {
+            "inited": "h4.png",
+            "clicked": "h5.png"
+          },
+          {
+            "inited": "h4.png",
+            "clicked": "h5.png"
+          },
+          {
+            "inited": "h4.png",
+            "clicked": "h5.png"
+          },
+          {
+            "inited": "h4.png",
+            "clicked": "h5.png"
+          },
+          {
+            "inited": "h4.png",
+            "clicked": "h5.png"
+          },
+          {
+            "inited": "h4.png",
+            "clicked": "h5.png"
+          },
+          {
+            "inited": "h4.png",
+            "clicked": "h5.png"
+          }
+        ],
+        "back": {
+          "inited": "h4.png",
+          "clicked": "h5.png"
+        },
+        "clear": {
+          "inited": "h4.png",
+          "clicked": "h5.png"
+        }
+      },
+      {
+        "theme_id": "tema7",
+        "thumb_view_id": "j.png",
+        "background_view_id": "#FDD9C9",
+        "filled_indicator_view_id": "h2.png",
+        "empty_indicator_view_id": "j1.png",
+        "button_views": [
+          {
+            "inited": "j2.png",
+            "clicked": "j3.png"
+          },
+          {
+            "inited": "j2.png",
+            "clicked": "j3.png"
+          },
+          {
+            "inited": "j2.png",
+            "clicked": "j3.png"
+          },
+          {
+            "inited": "j2.png",
+            "clicked": "j3.png"
+          },
+          {
+            "inited": "j2.png",
+            "clicked": "j3.png"
+          },
+          {
+            "inited": "j2.png",
+            "clicked": "j3.png"
+          },
+          {
+            "inited": "j2.png",
+            "clicked": "j3.png"
+          },
+          {
+            "inited": "j2.png",
+            "clicked": "j3.png"
+          },
+          {
+            "inited": "j2.png",
+            "clicked": "j3.png"
+          },
+          {
+            "inited": "j2.png",
+            "clicked": "j3.png"
+          }
+        ],
+        "back": {
+          "inited": "j2.png",
+          "clicked": "j3.png"
+        },
+        "clear": {
+          "inited": "j2.png",
+          "clicked": "j3.png"
+        }
+      }
+    ]
   },
   {
-    "id": 3,
-    "version": 1,
-    "thumbUrl": "th_3.png",
-    "backgroundUrl": "t_bg_3.png",
-    "solidColor": null,
-    "lineColor": null,
-    "stateHolder": {
-      "hasTwoState": true,
-      "backspaceUrl": "backspace_icon_3.png",
-      "states": [
-        {
-          "init": "isv_3_1.png",
-          "draw": "tsv_3_1.png"
-        }
-      ]
-    },
-    "indicator": {
-      "emptyUrl": "eisv_3.png",
-      "filledUrl": "fisv_3.png"
-    },
-    "adversiting":null
-  },{
-    "id": 4,
-    "version": 1,
-    "thumbUrl": "th_4.png",
-    "backgroundUrl": "t_bg_3.png",
-    "solidColor": null,
-    "lineColor": null,
-    "stateHolder": {
-      "hasTwoState": true,
-      "backspaceUrl": null,
-      "states": [
-        {
-          "init": "isv_3_1.png",
-          "draw": "tsv_3_1.png"
-        }
-      ]
-    },
-    "indicator": null,
-    "adversiting":null
+    "type": "TYPE_PATTERN",
+    "themes": [
+      {
+        "theme_id": "tema4",
+        "thumb_view_id": "d.png",
+        "background_view_id": "d1.png",
+        "line_color": "#00ffff",
+        "button_views": [
+          {
+            "inited": "d2.png",
+            "clicked": "d3.png"
+          },
+          {
+            "inited": "d2.png",
+            "clicked": "d3.png"
+          },
+          {
+            "inited": "d2.png",
+            "clicked": "d3.png"
+          },
+          {
+            "inited": "d2.png",
+            "clicked": "d3.png"
+          },
+          {
+            "inited": "d2.png",
+            "clicked": "d3.png"
+          },
+          {
+            "inited": "d2.png",
+            "clicked": "d3.png"
+          },
+          {
+            "inited": "d2.png",
+            "clicked": "d3.png"
+          },
+          {
+            "inited": "d2.png",
+            "clicked": "d3.png"
+          },
+          {
+            "inited": "d2.png",
+            "clicked": "d3.png"
+          }
+        ]
+      },
+      {
+        "theme_id": "tema5",
+        "thumb_view_id": "e.png",
+        "background_view_id": "#C4C4C4",
+        "line_color": "#00ffff",
+        "button_views": [
+          {
+            "inited": "e1.png",
+            "clicked": "e2.png"
+          },
+          {
+            "inited": "e1.png",
+            "clicked": "e2.png"
+          },
+          {
+            "inited": "e1.png",
+            "clicked": "e2.png"
+          },
+          {
+            "inited": "e1.png",
+            "clicked": "e2.png"
+          },
+          {
+            "inited": "e1.png",
+            "clicked": "e2.png"
+          },
+          {
+            "inited": "e1.png",
+            "clicked": "e2.png"
+          },
+          {
+            "inited": "e1.png",
+            "clicked": "e2.png"
+          },
+          {
+            "inited": "e1.png",
+            "clicked": "e2.png"
+          },
+          {
+            "inited": "e1.png",
+            "clicked": "e2.png"
+          }
+        ]
+      },
+      {
+        "theme_id": "tema8",
+        "thumb_view_id": "k.png",
+        "background_view_id": "k1.png",
+        "line_color": "#ffffff",
+        "button_views": [
+          {
+            "inited": "k2.png",
+            "clicked": "k3.png"
+          },
+          {
+            "inited": "k2.png",
+            "clicked": "k3.png"
+          },
+          {
+            "inited": "k2.png",
+            "clicked": "k3.png"
+          },
+          {
+            "inited": "k2.png",
+            "clicked": "k3.png"
+          },
+          {
+            "inited": "k2.png",
+            "clicked": "k3.png"
+          },
+          {
+            "inited": "k2.png",
+            "clicked": "k3.png"
+          },
+          {
+            "inited": "k2.png",
+            "clicked": "k3.png"
+          },
+          {
+            "inited": "k2.png",
+            "clicked": "k3.png"
+          },
+          {
+            "inited": "k2.png",
+            "clicked": "k3.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "TYPE_KNOCK_CODE",
+    "themes": [
+      {
+        "theme_id": "tema9",
+        "thumb_view_id": "f.png",
+        "background_view_id": "#000000",
+        "empty_indicator_view_id": "f5.png",
+        "filled_indicator_view_ids": [
+          {
+            "left_top": "f1.png"
+          },
+          {
+            "right_top": "f2.png"
+          },
+          {
+            "left_bottom": "f3.png"
+          },
+          {
+            "right_bottom": "f4.png"
+          }
+        ],
+        "button_views": [
+          {
+            "inited": "f6.png",
+            "clicked": "f6.png"
+          },
+          {
+            "inited": "f6.png",
+            "clicked": "f6.png"
+          },
+          {
+            "inited": "f6.png",
+            "clicked": "f6.png"
+          },
+          {
+            "inited": "f6.png",
+            "clicked": "f6.png"
+          }
+        ]
+      },
+      {
+        "theme_id": "tema10",
+        "thumb_view_id": "f.png",
+        "background_view_id": "l.png",
+        "empty_indicator_view_id": "f5.png",
+        "filled_indicator_view_ids": [
+          {
+            "left_top": "f1.png"
+          },
+          {
+            "right_top": "f2.png"
+          },
+          {
+            "left_bottom": "f3.png"
+          },
+          {
+            "right_bottom": "f4.png"
+          }
+        ],
+        "button_views": [
+          {
+            "inited": "f6.png",
+            "clicked": "f6.png"
+          },
+          {
+            "inited": "f6.png",
+            "clicked": "f6.png"
+          },
+          {
+            "inited": "f6.png",
+            "clicked": "f6.png"
+          },
+          {
+            "inited": "f6.png",
+            "clicked": "f6.png"
+          }
+        ]
+      }
+    ]
   }
 ]
