@@ -427,7 +427,7 @@
     ]
   },
   {
-    "type": "TYPE_KNOCK_CODE",
+    "type": "TYPE_KNOCK",
     "themes": [
       {
         "theme_id": "tema9",
