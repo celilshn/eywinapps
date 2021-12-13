@@ -6,7 +6,7 @@
         "theme_id": "tema1",
         "thumb_view_id": "a.png",
         "background_view_id": "a1.png",
-        "filled_indicator_view_id": "a3.png",
+        "filled_indicator_view_ids": ["a3.png"],
         "empty_indicator_view_id": "a4.png",
         "button_views": [
           {
@@ -63,7 +63,7 @@
         "theme_id": "tema2",
         "thumb_view_id": "b.png",
         "background_view_id": "b1.png",
-        "filled_indicator_view_id": "b2.png",
+        "filled_indicator_view_ids": ["b2.png"],
         "empty_indicator_view_id": "b3.png",
         "button_views": [
           {
@@ -120,7 +120,7 @@
         "theme_id": "tema3",
         "thumb_view_id": "c.png",
         "background_view_id": "c1.png",
-        "filled_indicator_view_id": "c2.png",
+        "filled_indicator_view_ids": ["c2.png"],
         "empty_indicator_view_id": "c3.png",
         "button_views": [
           {
@@ -177,7 +177,7 @@
         "theme_id": "tema6",
         "thumb_view_id": "h.png",
         "background_view_id": "h1.png",
-        "filled_indicator_view_id": "h2.png",
+        "filled_indicator_view_ids": ["h2.png"],
         "empty_indicator_view_id": "h3.png",
         "button_views": [
           {
@@ -234,7 +234,7 @@
         "theme_id": "tema7",
         "thumb_view_id": "j.png",
         "background_view_id": "#FDD9C9",
-        "filled_indicator_view_id": "h2.png",
+        "filled_indicator_view_ids": ["h2.png"],
         "empty_indicator_view_id": "j1.png",
         "button_views": [
           {
@@ -435,18 +435,10 @@
         "background_view_id": "#000000",
         "empty_indicator_view_id": "f5.png",
         "filled_indicator_view_ids": [
-          {
-            "left_top": "f1.png"
-          },
-          {
-            "right_top": "f2.png"
-          },
-          {
-            "left_bottom": "f3.png"
-          },
-          {
-            "right_bottom": "f4.png"
-          }
+          "f1.png",
+          "f2.png",
+          "f3.png",
+          "f4.png"
         ],
         "button_views": [
           {
@@ -473,18 +465,10 @@
         "background_view_id": "l.png",
         "empty_indicator_view_id": "f5.png",
         "filled_indicator_view_ids": [
-          {
-            "left_top": "f1.png"
-          },
-          {
-            "right_top": "f2.png"
-          },
-          {
-            "left_bottom": "f3.png"
-          },
-          {
-            "right_bottom": "f4.png"
-          }
+          "f1.png",
+          "f2.png",
+          "f3.png",
+          "f4.png"
         ],
         "button_views": [
           {
