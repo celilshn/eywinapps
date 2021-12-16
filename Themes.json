@@ -296,7 +296,7 @@
         "theme_id": "tema4",
         "thumb_view_id": "d.png",
         "background_view_id": "d1.png",
-        "line_color": "#00ffff",
+        "line_color": "#FF0000",
         "button_views": [
           {
             "inited": "d2.png",
@@ -340,7 +340,7 @@
         "theme_id": "tema5",
         "thumb_view_id": "e.png",
         "background_view_id": "#C4C4C4",
-        "line_color": "#00ffff",
+        "line_color": "#FF0000",
         "button_views": [
           {
             "inited": "e1.png",
